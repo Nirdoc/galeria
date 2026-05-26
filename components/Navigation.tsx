@@ -88,13 +88,15 @@ export default function Navigation() {
 
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <Link
-            href="/programari"
+          <a
+            href="https://mero.ro"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-2.5 text-sm tracking-widest uppercase font-medium border border-gold text-gold hover:bg-gold hover:text-background transition-all duration-300 rounded-sm"
           >
             <Calendar className="h-4 w-4" />
             Programare
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -125,13 +127,15 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/programari"
+            <a
+              href="https://mero.ro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 flex items-center justify-center gap-2 px-5 py-3 text-sm tracking-widest uppercase font-medium border border-gold text-gold hover:bg-gold hover:text-background transition-all duration-300 rounded-sm"
             >
               <Calendar className="h-4 w-4" />
               Programare Online
-            </Link>
+            </a>
           </nav>
         </div>
       )}

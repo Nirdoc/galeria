@@ -123,7 +123,7 @@ function ServiceItem({ service }: { service: Service }) {
           {service.price}
         </span>
         <Link
-          href="/programari"
+          href="https://mero.ro" target="_blank" rel="noopener noreferrer"
           className="text-[10px] tracking-widest uppercase text-muted-foreground hover:text-gold transition-colors"
         >
           Rezervă
@@ -240,7 +240,7 @@ export default function ServiciiPage() {
 
               <div className="mt-8">
                 <Link
-                  href="/programari"
+                  href="https://mero.ro" target="_blank" rel="noopener noreferrer"
                   className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-gold text-background text-sm font-medium tracking-widest uppercase hover:bg-gold-light transition-all duration-300 rounded-sm"
                 >
                   Programare Online

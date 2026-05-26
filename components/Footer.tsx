@@ -35,7 +35,7 @@ const navLinks = [
   { href: "/servicii", label: "Servicii" },
   { href: "/galerie", label: "Galerie" },
   { href: "/contact", label: "Contact" },
-  { href: "/programari", label: "Programări Online" },
+  { href: "https://mero.ro", label: "Programări Online" },
 ];
 
 export default function Footer() {

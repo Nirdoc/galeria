@@ -205,13 +205,15 @@ export default function HomePage() {
             transition={{ duration: 0.8, delay: 1 }}
             className="flex flex-col sm:flex-row items-center gap-4"
           >
-            <Link
-              href="/programari"
+            <a
+              href="https://mero.ro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group px-8 py-4 bg-gold text-background font-medium text-sm tracking-widest uppercase hover:bg-gold-light transition-all duration-300 rounded-sm shadow-[0_0_30px_oklch(0.73_0.12_83/30%)] hover:shadow-[0_0_50px_oklch(0.73_0.12_83/50%)]"
             >
               Programează-te
               <ArrowRight className="inline-block ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <Link
               href="/servicii"
               className="px-8 py-4 border border-gold/50 text-gold font-medium text-sm tracking-widest uppercase hover:border-gold hover:bg-gold/8 transition-all duration-300 rounded-sm"
@@ -395,12 +397,14 @@ export default function HomePage() {
                     </h3>
                   </div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <Link
-                      href="/programari"
+                    <a
+                      href="https://mero.ro"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="px-6 py-3 bg-gold text-background text-xs font-medium tracking-widest uppercase rounded-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
                     >
                       Programare
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-center justify-between px-1">
@@ -538,13 +542,15 @@ export default function HomePage() {
               Nu lăsa stilul pe mâine. Frizerii noștri te așteaptă pentru o experiență
               premium pe care nu o vei uita.
             </p>
-            <Link
-              href="/programari"
+            <a
+              href="https://mero.ro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 bg-gold text-background font-medium text-sm tracking-widest uppercase hover:bg-gold-light transition-all duration-300 rounded-sm shadow-[0_0_40px_oklch(0.73_0.12_83/35%)] hover:shadow-[0_0_60px_oklch(0.73_0.12_83/55%)]"
             >
               Programare Online
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
           </motion.div>
         </div>
       </Section>

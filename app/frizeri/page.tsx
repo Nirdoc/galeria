@@ -179,7 +179,7 @@ export default function FrizeriPage() {
                   {/* Hover CTA */}
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-background/20">
                     <Link
-                      href="/programari"
+                      href="https://mero.ro" target="_blank" rel="noopener noreferrer"
                       className="px-6 py-3 bg-gold text-background text-xs font-medium tracking-widest uppercase rounded-sm translate-y-6 group-hover:translate-y-0 transition-transform duration-400"
                     >
                       Programare
@@ -217,7 +217,7 @@ export default function FrizeriPage() {
 
                   <div className="flex items-center justify-between">
                     <Link
-                      href="/programari"
+                      href="https://mero.ro" target="_blank" rel="noopener noreferrer"
                       className="group/btn inline-flex items-center gap-2 text-sm text-gold hover:gap-3 transition-all duration-200 tracking-wider"
                     >
                       Programează-te
@@ -253,7 +253,7 @@ export default function FrizeriPage() {
             se potrivește cel mai bine viziunii tale.
           </p>
           <Link
-            href="/programari"
+            href="https://mero.ro" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-4 bg-gold text-background font-medium text-sm tracking-widest uppercase hover:bg-gold-light transition-all duration-300 rounded-sm shadow-[0_0_40px_oklch(0.73_0.12_83/30%)]"
           >
             Programare Online <ArrowRight className="h-4 w-4" />
